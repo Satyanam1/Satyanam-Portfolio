@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+.hero-bg {
+  background: #f8f9f8;
+}
+
+.hero-glow {
+  background:
+    radial-gradient(
+      ellipse at 36% 34%,
+      rgba(203, 242, 88, 0.20),
+      transparent 36%
+    ),
+    radial-gradient(
+      ellipse at 66% 64%,
+      rgba(30, 200, 143, 0.30),
+      transparent 38%
+    );
+}
+
+
+.hero-grid {
+  background-image:
+    linear-gradient(
+      rgba(37, 70, 49, 0.045) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(37, 70, 49, 0.045) 1px,
+      transparent 1px
+    );
+  background-size: 44px 44px;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 18%,
+    black 80%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 18%,
+    black 80%,
+    transparent
+  );
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
